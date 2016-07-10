@@ -32,7 +32,7 @@ a:hover {
 #teasers-title {
     font-family: 'Open Sans', sans-serif;
     color: #7d97ad;
-    text-transform: up
+    text-transform: uppercase;
 }
 
 .teaser-title {
