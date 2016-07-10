@@ -13,24 +13,18 @@ a:hover {
 
 #header-title {
     font-family: 'Quicksand', sans-serif;
-
     text-align:right;
     text-transform: uppercase;
 }
 
 #header-subtitle {
     font-family: 'Open Sans', sans-serif;
-
     text-align: right;
     text-transform: uppercase;
 }
 
 #header {
-    border-color: #7d97ad;
-    border-style: solid;
-    border-top: 3px;
-    border-right: 0;
-    border-left: 0;
+    border-bottom: 3px solid #7d97ad;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
