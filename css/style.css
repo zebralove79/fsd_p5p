@@ -1,11 +1,11 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:300';
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Quicksand:300";
 
 body {
     color: #2d3c49;
 }
 
 a {
-    color:inherit;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -13,32 +13,37 @@ a:hover {
     text-decoration: none;
 }
 
-#header-title {
-    font-family: 'Quicksand', sans-serif;
-    text-align:right;
-    text-transform: uppercase;
+.logo {
+    padding-top: 19px;
 }
 
-#header-subtitle {
-    font-family: 'Open Sans', sans-serif;
-    text-align: right;
-    text-transform: uppercase;
-}
-
-#header {
+.header {
     border-bottom: 3px solid #7d97ad;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
-#teasers-title {
-    font-family: 'Open Sans', sans-serif;
+.header-title {
+    font-family: "Quicksand", sans-serif;
+    text-align:right;
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    font-family: "Open Sans", sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+
+.teasers-title {
+    font-family: "Open Sans", sans-serif;
     color: #7d97ad;
     text-transform: uppercase;
 }
 
 .teaser-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
 }
 
@@ -52,14 +57,13 @@ a:hover {
 }
 
 .teaser-url {
+    font-family: "Open Sans", sans-serif;
     word-break: break-all;
     font-size: 10px;
-    font-family: 'Open Sans', sans-serif;
-
 }
 
 @media only screen and (min-width: 800px) {
-    #page {
+    .page {
         width: 800px;
     }
 }
@@ -69,18 +73,23 @@ a:hover {
         background-color: #2d3c49;
         color: #fff;
     }
+
+    .logo-img {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-    #header-title {
+    .header-title {
         font-size: 24px;
     }
 
-    #header-subtitle {
+    .header-subtitle {
         font-size: 10px;
     }
 
-    #teasers-title {
+    .teasers-title {
         font-size: 16px;
     }
 
@@ -98,5 +107,10 @@ a:hover {
 
     .teaser-url {
         color: #fff;
+    }
+
+    .logo-img {
+        height: 60px;
+        width: 60px;
     }
 }
